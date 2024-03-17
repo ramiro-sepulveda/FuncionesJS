@@ -37,7 +37,6 @@ const key1 = document.getElementById("key1");
 const key2 = document.getElementById("key2");
 
 document.addEventListener('keydown', function (event) {
-
     if (event.key === 'a') {
         color1 = 'pink'
     } else if (event.key === 's') {
